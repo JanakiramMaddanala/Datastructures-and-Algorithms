@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Datastructures\Stack\StackUsingArraylist.cs" />
+    <Compile Include="Datastructures\Stack\Stack.cs" />
     <Compile Include="DynamicProgramming.cs" />
     <Compile Include="Datastructures\LinkedList\LinkedList.cs" />
     <Compile Include="Datastructures\LinkedList\LinkedListNode.cs" />

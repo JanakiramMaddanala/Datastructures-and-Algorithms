@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Algorithms.Datastructures
 {
-    public class StackUsingArraylist
+    public class Stack
     {
         private ArrayList arrayList;
         private int top = -1;
 
-        public StackUsingArraylist()
+        public Stack()
         {
             arrayList = new ArrayList();
         }

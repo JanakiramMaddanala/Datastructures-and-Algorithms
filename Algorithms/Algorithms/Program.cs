@@ -19,7 +19,7 @@ namespace Algorithms
         private static void TestStack()
         {
             Console.WriteLine("---BEGIN STACK---");
-            var stack = new StackUsingArraylist();
+            var stack = new Stack();
             for (int i = 0; i < 10; i++)
             {
                 stack.Push(i);
