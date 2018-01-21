@@ -11,7 +11,32 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("---Begin---");
+            TestStack();
+            TestLinkedList();
+            Console.ReadLine();
+        }
+
+        private static void TestStack()
+        {
+            Console.WriteLine("---BEGIN STACK---");
+            var stack = new StackUsingArraylist();
+            for (int i = 0; i < 10; i++)
+            {
+                stack.Push(i);
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                int value = stack.Peek();
+                stack.Pop();
+                Console.WriteLine(value);
+            }
+            Console.WriteLine("---END STACK---");
+        }
+
+        private static void TestLinkedList()
+        {
+            Console.WriteLine("---BEGIN LINKED LIST---");
 
             var linkedList = new LinkedList();
 
@@ -34,8 +59,7 @@ namespace Algorithms
                 current = current.Next;
             }
 
-            Console.WriteLine("---END---");
-            Console.ReadLine();
+            Console.WriteLine("---END LINKED LIST---");
         }
     }
 }
