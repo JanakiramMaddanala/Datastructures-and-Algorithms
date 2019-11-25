@@ -12,6 +12,8 @@ namespace Algorithms
         static void Main(string[] args)
         {
             TestStack();
+            TestStack();
+            TestStasck();
             TestLinkedList();
             Console.ReadLine();
         }
